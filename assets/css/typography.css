@@ -663,3 +663,28 @@ ul, ol {
 .prose-wide {
   max-width: 75ch;
 }
+
+/* ========== BRAND NAME RESPONSIVE ========== */
+.brand-name {
+  font-size: 30px;
+  font-weight: var(--weight-semibold);
+  transition: font-size 0.2s ease;
+}
+
+@media (max-width: 991px) {
+  .brand-name {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .brand-name {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .brand-name {
+    font-size: 18px;
+  }
+}
