@@ -1,0 +1,16 @@
+# Robots.txt for Fluenterra
+# https://fluenterra.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://fluenterra.com/sitemap.xml
+
+# Disallow non-content resources
+Disallow: /assets/js/
+Disallow: /assets/fonts/
+
+# Allow CSS and images for rendering
+Allow: /assets/css/
+Allow: /assets/images/
